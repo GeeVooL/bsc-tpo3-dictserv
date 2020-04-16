@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="com.google.protobuf:protobuf-java:3.11.4">
+    <archive path="/Users/mdziewulski/Documents/Studies - PJATK/TPO/Exercises/Exc3/TPO3_DM_S19682/lib/protobuf-java-3.11.4.jar" />
+  </library>
+  <library name="org.json:json:20190722">
+    <archive path="/Users/mdziewulski/Documents/Studies - PJATK/TPO/Exercises/Exc3/TPO3_DM_S19682/lib/json-20190722.jar" />
+  </library>
+  <library name="Bundled Protobuf Distribution" />
+</eclipse-userlibraries>
+

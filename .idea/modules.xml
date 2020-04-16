@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Client/Client.iml" filepath="$PROJECT_DIR$/Client/Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreServer/CoreServer.iml" filepath="$PROJECT_DIR$/CoreServer/CoreServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DictServer/DictServer.iml" filepath="$PROJECT_DIR$/DictServer/DictServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TPO3_DM_S19682.iml" filepath="$PROJECT_DIR$/TPO3_DM_S19682.iml" />
+    </modules>
+  </component>
+</project>

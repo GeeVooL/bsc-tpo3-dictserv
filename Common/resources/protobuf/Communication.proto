@@ -1,0 +1,49 @@
+syntax = "proto3";
+option java_package = "com.mdevv.tpo3.common.protobuf";
+option java_multiple_files = true;
+
+enum Status {
+    OK = 0;
+    ERROR = 1;
+    NOT_SUPPORTED = 2;
+    NOT_FOUND = 3;
+}
+
+// From client to core server
+message TranslationRequest {
+    string source_word = 1;
+    string translation_language = 2;
+    uint32 client_port = 3;
+}
+
+// From core server to dict server
+message DictionaryServerRequest {
+    string source_word = 1;
+    string client_address = 2;
+    uint32 client_port = 3;
+}
+
+// From dict server to client
+message TranslationResponse {
+    Status status = 1;
+    string source_word = 2;
+    string translated_word = 3;
+    string translation_language = 4;
+}
+
+// From dict server to core server
+message RegistrationRequest {
+    enum RequestType {
+        REGISTER = 0;
+        UNREGISTER = 1;
+    }
+
+    RequestType type = 1;
+    uint32 port = 3;
+    string language = 4;
+}
+
+// Generic response
+message Response {
+    Status status = 1;
+}

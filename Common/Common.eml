@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/../out/test/Common"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="com.google.protobuf:protobuf-java:3.11.4" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/protobuf-java-3.11.4.jar!/"/>
+	</lib>
+</component>
